@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mall-admin
+  profiles:
+    active: dev #???????
+
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:com/**/mapper/*.xml
